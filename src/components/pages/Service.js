@@ -90,7 +90,6 @@ const Service = () => {
     setData({img,i})
   }
   const imgAction = (action) => {
-    let i= data.i;
     if(!action){
       setData({img: '', i:0})
     }
@@ -110,7 +109,7 @@ const Service = () => {
         overflow: 'hidden',
       }}>
         <button onClick = {()=> imgAction()}style={{position: 'absolute', top: '10px', right: '10px'}}>X</button>
-        <img src={data.img} style={{width: 'auto', maxWidth: '90', maxHeight: '90'}}/>
+        <img src={data.img} alt = '' style={{width: 'auto', maxWidth: '90', maxHeight: '90'}}/>
       </div>
     }
     <div style={{padding: '3px'}}>

@@ -1,7 +1,6 @@
 import React from "react";
 import mohsen from "../style/img/mohsen.jpeg";
 import '../style/About.css';
-import Footer from '../Footer';
 import ContactInfo from '../ContactInfo';
 function About() {
   return (
